@@ -1,0 +1,82 @@
+{
+  "reference": "V10",
+  "note": "V10 Itaewon (commit ebf39b8, tag v10-restore-point) - bản dựng đầu tiên user duyệt là đạt cả 4 tiêu chí nghiệm thu. Điểm yếu đã biết của chính bản này: 1/3 cuối hơi nghiêng về ảnh không khí, nên ngưỡng photo_only_last_third KHÔNG lấy từ đây mà đặt tuyệt đối.",
+  "howToUse": "baseline_gate.py check input/scene_plan<N>.json. KHÔNG freeze lại bằng một video kém hơn chỉ để gate im lặng - chỉ freeze lại khi video mới THỰC SỰ tốt hơn ở mọi chỉ số.",
+  "metrics": {
+    "content_coverage_pct": {
+      "direction": "up",
+      "slack": 8.0,
+      "label": "độ phủ nội dung"
+    },
+    "spb_complex": {
+      "direction": "up",
+      "slack": 0.25,
+      "label": "giây/nhịp ở cảnh complex"
+    },
+    "spb_moderate": {
+      "direction": "up",
+      "slack": 0.2,
+      "label": "giây/nhịp ở cảnh moderate"
+    },
+    "distinct_languages": {
+      "direction": "up",
+      "slack": 2.0,
+      "label": "số ngôn ngữ hình ảnh khác nhau"
+    },
+    "max_language_share_pct": {
+      "direction": "down",
+      "slack": 8.0,
+      "label": "tỉ lệ ngôn ngữ chiếm nhiều nhất"
+    },
+    "layered_pct": {
+      "direction": "up",
+      "slack": 12.0,
+      "label": "tỉ lệ cảnh xếp chồng >=2 vai trò"
+    },
+    "code_drawn_pct": {
+      "direction": "up",
+      "slack": 12.0,
+      "label": "tỉ lệ cảnh có hình vẽ bằng code"
+    },
+    "photo_only_pct": {
+      "direction": "down",
+      "slack": 10.0,
+      "label": "tỉ lệ cảnh chỉ có ảnh nền"
+    },
+    "assets_per_scene": {
+      "direction": "up",
+      "slack": 0.35,
+      "label": "số tài nguyên trung bình mỗi cảnh"
+    },
+    "max_event_gap_sec": {
+      "direction": "down",
+      "slack": 1.0,
+      "label": "khoảng cách sự kiện thị giác lớn nhất"
+    }
+  },
+  "absoluteTargets": {
+    "photo_only_last_third_pct": {
+      "rule": "<= photo_only_pct + 12",
+      "why": "video không được nhạt dần về cuối - đoạn kết vẫn phải giải thích"
+    }
+  },
+  "profile": {
+    "video": "V10",
+    "scenes": 26,
+    "runtime_sec": 100.78,
+    "content_coverage_pct": 95.9,
+    "spb_complex": 2.1,
+    "spb_moderate": 1.8,
+    "spb_simple": 1.68,
+    "distinct_languages": 11,
+    "max_language_share_pct": 26.9,
+    "layered_pct": 42.3,
+    "code_drawn_pct": 65.4,
+    "photo_only_pct": 23.1,
+    "photo_only_last_third_pct": 25.0,
+    "assets_per_scene": 1.62,
+    "max_event_gap_sec": 3.55,
+    "band_fill_median_pct": 80.7,
+    "band_fill_worst_pct": 17.5
+  }
+}

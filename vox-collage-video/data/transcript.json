@@ -1,0 +1,729 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.26,
+      "text": "Ở Việt Nam, hệ thống pháp luật thuộc nhóm Civil Law dân luật,",
+      "words": [
+        {
+          "word": " Ở",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": " Việt",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": " Nam,",
+          "start": 0.46,
+          "end": 0.74
+        },
+        {
+          "word": " hệ",
+          "start": 1.06,
+          "end": 1.1
+        },
+        {
+          "word": " thống",
+          "start": 1.1,
+          "end": 1.28
+        },
+        {
+          "word": " pháp",
+          "start": 1.28,
+          "end": 1.46
+        },
+        {
+          "word": " luật",
+          "start": 1.46,
+          "end": 1.68
+        },
+        {
+          "word": " thuộc",
+          "start": 1.68,
+          "end": 2.08
+        },
+        {
+          "word": " nhóm",
+          "start": 2.08,
+          "end": 2.26
+        },
+        {
+          "word": " Civil",
+          "start": 2.26,
+          "end": 2.52
+        },
+        {
+          "word": " Law",
+          "start": 2.52,
+          "end": 2.8
+        },
+        {
+          "word": " dân",
+          "start": 2.8,
+          "end": 3.04
+        },
+        {
+          "word": " luật,",
+          "start": 3.04,
+          "end": 3.26
+        }
+      ]
+    },
+    {
+      "start": 3.74,
+      "end": 6.0,
+      "text": "vay trò của toa án và viện kiểm sát rất lớn.",
+      "words": [
+        {
+          "word": " vay",
+          "start": 3.74,
+          "end": 3.84
+        },
+        {
+          "word": " trò",
+          "start": 3.84,
+          "end": 4.02
+        },
+        {
+          "word": " của",
+          "start": 4.02,
+          "end": 4.16
+        },
+        {
+          "word": " toa",
+          "start": 4.16,
+          "end": 4.42
+        },
+        {
+          "word": " án",
+          "start": 4.42,
+          "end": 4.64
+        },
+        {
+          "word": " và",
+          "start": 4.64,
+          "end": 4.9
+        },
+        {
+          "word": " viện",
+          "start": 4.9,
+          "end": 5.12
+        },
+        {
+          "word": " kiểm",
+          "start": 5.12,
+          "end": 5.32
+        },
+        {
+          "word": " sát",
+          "start": 5.32,
+          "end": 5.5
+        },
+        {
+          "word": " rất",
+          "start": 5.5,
+          "end": 5.64
+        },
+        {
+          "word": " lớn.",
+          "start": 5.64,
+          "end": 6.0
+        }
+      ]
+    },
+    {
+      "start": 6.64,
+      "end": 10.1,
+      "text": "Du luật sư có cãi hay đến đâu, bằng chứng đưa ra sắc bán thế nào,",
+      "words": [
+        {
+          "word": " Du",
+          "start": 6.64,
+          "end": 6.92
+        },
+        {
+          "word": " luật",
+          "start": 6.92,
+          "end": 7.1
+        },
+        {
+          "word": " sư",
+          "start": 7.1,
+          "end": 7.26
+        },
+        {
+          "word": " có",
+          "start": 7.26,
+          "end": 7.42
+        },
+        {
+          "word": " cãi",
+          "start": 7.42,
+          "end": 7.7
+        },
+        {
+          "word": " hay",
+          "start": 7.7,
+          "end": 7.84
+        },
+        {
+          "word": " đến",
+          "start": 7.84,
+          "end": 7.92
+        },
+        {
+          "word": " đâu,",
+          "start": 7.92,
+          "end": 8.16
+        },
+        {
+          "word": " bằng",
+          "start": 8.6,
+          "end": 8.72
+        },
+        {
+          "word": " chứng",
+          "start": 8.72,
+          "end": 8.96
+        },
+        {
+          "word": " đưa",
+          "start": 8.96,
+          "end": 9.12
+        },
+        {
+          "word": " ra",
+          "start": 9.12,
+          "end": 9.28
+        },
+        {
+          "word": " sắc",
+          "start": 9.28,
+          "end": 9.52
+        },
+        {
+          "word": " bán",
+          "start": 9.52,
+          "end": 9.68
+        },
+        {
+          "word": " thế",
+          "start": 9.68,
+          "end": 9.84
+        },
+        {
+          "word": " nào,",
+          "start": 9.84,
+          "end": 10.1
+        }
+      ]
+    },
+    {
+      "start": 10.66,
+      "end": 13.26,
+      "text": "thì đôi khi bản án vẫn chiếu ảnh hưởng bởi nhiều yêu tố khác.",
+      "words": [
+        {
+          "word": " thì",
+          "start": 10.66,
+          "end": 10.72
+        },
+        {
+          "word": " đôi",
+          "start": 10.72,
+          "end": 10.86
+        },
+        {
+          "word": " khi",
+          "start": 10.86,
+          "end": 11.0
+        },
+        {
+          "word": " bản",
+          "start": 11.0,
+          "end": 11.22
+        },
+        {
+          "word": " án",
+          "start": 11.22,
+          "end": 11.46
+        },
+        {
+          "word": " vẫn",
+          "start": 11.46,
+          "end": 11.58
+        },
+        {
+          "word": " chiếu",
+          "start": 11.58,
+          "end": 11.84
+        },
+        {
+          "word": " ảnh",
+          "start": 11.84,
+          "end": 12.0
+        },
+        {
+          "word": " hưởng",
+          "start": 12.0,
+          "end": 12.2
+        },
+        {
+          "word": " bởi",
+          "start": 12.2,
+          "end": 12.5
+        },
+        {
+          "word": " nhiều",
+          "start": 12.5,
+          "end": 12.7
+        },
+        {
+          "word": " yêu",
+          "start": 12.7,
+          "end": 12.86
+        },
+        {
+          "word": " tố",
+          "start": 12.86,
+          "end": 13.04
+        },
+        {
+          "word": " khác.",
+          "start": 13.04,
+          "end": 13.26
+        }
+      ]
+    },
+    {
+      "start": 13.98,
+      "end": 17.58,
+      "text": "Dất nhiều khách hàng tìm đến luật sư không phải để hỏi luật quy định thế nào.",
+      "words": [
+        {
+          "word": " Dất",
+          "start": 13.98,
+          "end": 14.22
+        },
+        {
+          "word": " nhiều",
+          "start": 14.22,
+          "end": 14.38
+        },
+        {
+          "word": " khách",
+          "start": 14.38,
+          "end": 14.6
+        },
+        {
+          "word": " hàng",
+          "start": 14.6,
+          "end": 14.84
+        },
+        {
+          "word": " tìm",
+          "start": 14.84,
+          "end": 15.22
+        },
+        {
+          "word": " đến",
+          "start": 15.22,
+          "end": 15.28
+        },
+        {
+          "word": " luật",
+          "start": 15.28,
+          "end": 15.52
+        },
+        {
+          "word": " sư",
+          "start": 15.52,
+          "end": 15.76
+        },
+        {
+          "word": " không",
+          "start": 15.76,
+          "end": 16.0
+        },
+        {
+          "word": " phải",
+          "start": 16.0,
+          "end": 16.2
+        },
+        {
+          "word": " để",
+          "start": 16.2,
+          "end": 16.34
+        },
+        {
+          "word": " hỏi",
+          "start": 16.34,
+          "end": 16.56
+        },
+        {
+          "word": " luật",
+          "start": 16.56,
+          "end": 16.84
+        },
+        {
+          "word": " quy",
+          "start": 16.84,
+          "end": 17.0
+        },
+        {
+          "word": " định",
+          "start": 17.0,
+          "end": 17.22
+        },
+        {
+          "word": " thế",
+          "start": 17.22,
+          "end": 17.32
+        },
+        {
+          "word": " nào.",
+          "start": 17.32,
+          "end": 17.58
+        }
+      ]
+    },
+    {
+      "start": 18.22,
+      "end": 20.88,
+      "text": "Mà lại hỏi thằng thân chủ của tôi có chăng án được không?",
+      "words": [
+        {
+          "word": " Mà",
+          "start": 18.22,
+          "end": 18.5
+        },
+        {
+          "word": " lại",
+          "start": 18.5,
+          "end": 18.62
+        },
+        {
+          "word": " hỏi",
+          "start": 18.62,
+          "end": 18.92
+        },
+        {
+          "word": " thằng",
+          "start": 18.92,
+          "end": 19.16
+        },
+        {
+          "word": " thân",
+          "start": 19.16,
+          "end": 19.38
+        },
+        {
+          "word": " chủ",
+          "start": 19.38,
+          "end": 19.56
+        },
+        {
+          "word": " của",
+          "start": 19.56,
+          "end": 19.74
+        },
+        {
+          "word": " tôi",
+          "start": 19.74,
+          "end": 20.02
+        },
+        {
+          "word": " có",
+          "start": 20.02,
+          "end": 20.28
+        },
+        {
+          "word": " chăng",
+          "start": 20.28,
+          "end": 20.44
+        },
+        {
+          "word": " án",
+          "start": 20.44,
+          "end": 20.6
+        },
+        {
+          "word": " được",
+          "start": 20.6,
+          "end": 20.66
+        },
+        {
+          "word": " không?",
+          "start": 20.66,
+          "end": 20.88
+        }
+      ]
+    },
+    {
+      "start": 21.84,
+      "end": 24.7,
+      "text": "Bác có quen ai bên toa hay công an không để chạy dúc?",
+      "words": [
+        {
+          "word": " Bác",
+          "start": 21.84,
+          "end": 22.12
+        },
+        {
+          "word": " có",
+          "start": 22.12,
+          "end": 22.26
+        },
+        {
+          "word": " quen",
+          "start": 22.26,
+          "end": 22.44
+        },
+        {
+          "word": " ai",
+          "start": 22.44,
+          "end": 22.62
+        },
+        {
+          "word": " bên",
+          "start": 22.62,
+          "end": 22.74
+        },
+        {
+          "word": " toa",
+          "start": 22.74,
+          "end": 23.26
+        },
+        {
+          "word": " hay",
+          "start": 23.26,
+          "end": 23.38
+        },
+        {
+          "word": " công",
+          "start": 23.38,
+          "end": 23.54
+        },
+        {
+          "word": " an",
+          "start": 23.54,
+          "end": 23.78
+        },
+        {
+          "word": " không",
+          "start": 23.78,
+          "end": 24.12
+        },
+        {
+          "word": " để",
+          "start": 24.12,
+          "end": 24.24
+        },
+        {
+          "word": " chạy",
+          "start": 24.24,
+          "end": 24.5
+        },
+        {
+          "word": " dúc?",
+          "start": 24.5,
+          "end": 24.7
+        }
+      ]
+    },
+    {
+      "start": 25.4,
+      "end": 28.96,
+      "text": "Cái áp lực bị biến thành cò án hoặc môi chuyển tiền hối lộ này,",
+      "words": [
+        {
+          "word": " Cái",
+          "start": 25.4,
+          "end": 25.56
+        },
+        {
+          "word": " áp",
+          "start": 25.56,
+          "end": 25.76
+        },
+        {
+          "word": " lực",
+          "start": 25.76,
+          "end": 25.96
+        },
+        {
+          "word": " bị",
+          "start": 25.96,
+          "end": 26.08
+        },
+        {
+          "word": " biến",
+          "start": 26.08,
+          "end": 26.34
+        },
+        {
+          "word": " thành",
+          "start": 26.34,
+          "end": 26.54
+        },
+        {
+          "word": " cò",
+          "start": 26.54,
+          "end": 26.84
+        },
+        {
+          "word": " án",
+          "start": 26.84,
+          "end": 27.24
+        },
+        {
+          "word": " hoặc",
+          "start": 27.24,
+          "end": 27.66
+        },
+        {
+          "word": " môi",
+          "start": 27.66,
+          "end": 27.84
+        },
+        {
+          "word": " chuyển",
+          "start": 27.84,
+          "end": 28.14
+        },
+        {
+          "word": " tiền",
+          "start": 28.14,
+          "end": 28.34
+        },
+        {
+          "word": " hối",
+          "start": 28.34,
+          "end": 28.58
+        },
+        {
+          "word": " lộ",
+          "start": 28.58,
+          "end": 28.68
+        },
+        {
+          "word": " này,",
+          "start": 28.68,
+          "end": 28.96
+        }
+      ]
+    },
+    {
+      "start": 28.96,
+      "end": 31.04,
+      "text": "chính là cái bẫy đạo đức lớn nhất,",
+      "words": [
+        {
+          "word": " chính",
+          "start": 28.96,
+          "end": 29.68
+        },
+        {
+          "word": " là",
+          "start": 29.68,
+          "end": 29.88
+        },
+        {
+          "word": " cái",
+          "start": 29.88,
+          "end": 30.0
+        },
+        {
+          "word": " bẫy",
+          "start": 30.0,
+          "end": 30.24
+        },
+        {
+          "word": " đạo",
+          "start": 30.24,
+          "end": 30.42
+        },
+        {
+          "word": " đức",
+          "start": 30.42,
+          "end": 30.62
+        },
+        {
+          "word": " lớn",
+          "start": 30.62,
+          "end": 30.86
+        },
+        {
+          "word": " nhất,",
+          "start": 30.86,
+          "end": 31.04
+        }
+      ]
+    },
+    {
+      "start": 31.54,
+      "end": 33.68,
+      "text": "để nhiều luật sư vào con đường vì phạm pháp luật.",
+      "words": [
+        {
+          "word": " để",
+          "start": 31.54,
+          "end": 31.62
+        },
+        {
+          "word": " nhiều",
+          "start": 31.62,
+          "end": 31.88
+        },
+        {
+          "word": " luật",
+          "start": 31.88,
+          "end": 32.14
+        },
+        {
+          "word": " sư",
+          "start": 32.14,
+          "end": 32.4
+        },
+        {
+          "word": " vào",
+          "start": 32.4,
+          "end": 32.52
+        },
+        {
+          "word": " con",
+          "start": 32.52,
+          "end": 32.68
+        },
+        {
+          "word": " đường",
+          "start": 32.68,
+          "end": 32.88
+        },
+        {
+          "word": " vì",
+          "start": 32.88,
+          "end": 33.14
+        },
+        {
+          "word": " phạm",
+          "start": 33.14,
+          "end": 33.36
+        },
+        {
+          "word": " pháp",
+          "start": 33.36,
+          "end": 33.5
+        },
+        {
+          "word": " luật.",
+          "start": 33.5,
+          "end": 33.68
+        }
+      ]
+    }
+  ]
+}

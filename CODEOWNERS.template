@@ -1,0 +1,6 @@
+# Copy this file to .github/CODEOWNERS in the video repository.
+# Replace @quality-owner with the real GitHub user or team.
+/.github/workflows/* @quality-owner
+/trusted-gates/* @quality-owner
+/.claude/skills/* @quality-owner
+input/references/* @quality-owner
