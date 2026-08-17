@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -31,6 +32,8 @@ REQUIRED = (
     ("selftest.py", lambda p, root: []),
 )
 
+PLAN_NAME = re.compile(r"scene_plan(\d+)\.json$")
+
 
 def fail(message: str) -> int:
     print(f"[vox-ci] FAIL: {message}", file=sys.stderr)
@@ -38,7 +41,10 @@ def fail(message: str) -> int:
 
 
 def discover_plan(root: Path) -> tuple[Path, dict]:
-    plans = sorted((root / "input").glob("scene_plan*.json"))
+    plans = sorted(
+        path for path in (root / "input").glob("scene_plan*.json")
+        if PLAN_NAME.fullmatch(path.name)
+    )
     if not plans:
         raise ValueError("không tìm thấy input/scene_plan*.json")
 
@@ -58,9 +64,15 @@ def discover_plan(root: Path) -> tuple[Path, dict]:
         raise ValueError("có nhiều scene plan cùng active")
     if len(active) == 1:
         return active[0]
-    if len(shipped) == 1 and len(parsed) == 1:
-        return shipped[0]
-    raise ValueError("phải có đúng một plan active hoặc một plan shipped đã được kiểm tra")
+    if shipped:
+        # Historical shipped plans are legitimate. With no active build, CI
+        # validates the newest shipped video instead of treating history as an
+        # ambiguity or trusting a stale older plan.
+        return max(
+            shipped,
+            key=lambda item: int(PLAN_NAME.fullmatch(item[0].name).group(1)),
+        )
+    raise ValueError("không có plan active hoặc shipped hợp lệ để kiểm tra")
 
 
 def run_gate(name: str, args: list[str], gate_dir: Path, root: Path) -> str | None:
@@ -86,9 +98,14 @@ def run_gate(name: str, args: list[str], gate_dir: Path, root: Path) -> str | No
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", required=True, help="video project checkout")
+    parser.add_argument(
+        "--render-review",
+        action="store_true",
+        help="render fresh review evidence before running review and pixel gates",
+    )
     args = parser.parse_args()
     root = Path(args.root).resolve()
-    gate_dir = Path(__file__).resolve().parent
+    gate_dir = Path(__file__).resolve().parent / "scripts"
 
     try:
         plan, plan_data = discover_plan(root)
@@ -101,6 +118,16 @@ def main() -> int:
         return fail(f"plan thiếu trường video: {plan}")
 
     failures: list[str] = []
+    if args.render_review:
+        failure = run_gate(
+            "render_review_sheet.py",
+            [str(plan), "--keep-review"],
+            gate_dir,
+            root,
+        )
+        if failure:
+            failures.append(failure)
+
     for name, make_args in REQUIRED:
         failure = run_gate(name, make_args(plan, root), gate_dir, root)
         if failure:

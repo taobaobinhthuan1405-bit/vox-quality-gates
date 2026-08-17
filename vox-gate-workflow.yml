@@ -19,9 +19,18 @@ jobs:
       - name: Checkout trusted gate repository
         uses: actions/checkout@v4
         with:
-          repository: YOUR_GITHUB_OWNER/vox-quality-gates
-          ref: v1.0.0
+          repository: taobaobinhthuan1405-bit/vox-quality-gates
+          ref: v1.0.1
           path: trusted-gates
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install video dependencies
+        run: npm ci
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -32,4 +41,16 @@ jobs:
         run: python -m pip install pillow numpy scipy
 
       - name: Run trusted VOX gate
-        run: python trusted-gates/vox-collage-video/ci_gate.py --root "$GITHUB_WORKSPACE"
+        run: |
+          python trusted-gates/vox-collage-video/ci_gate.py \
+            --root "$GITHUB_WORKSPACE" \
+            --render-review
+
+      - name: Upload review contact sheet
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vox-review-contact-sheet
+          path: input/review_frames/contact_sheet.jpg
+          if-no-files-found: ignore
+          retention-days: 7
